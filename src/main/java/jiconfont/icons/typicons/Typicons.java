@@ -1,4 +1,4 @@
-package jiconfont.icons;
+package jiconfont.icons.typicons;
 
 import jiconfont.IconCode;
 import jiconfont.IconFont;
@@ -390,7 +390,7 @@ public enum Typicons implements IconCode {
 
             @Override
             public InputStream getFontInputStream() {
-                return Typicons.class.getResourceAsStream("/fonts/typicons.ttf");
+                return Typicons.class.getResourceAsStream("/fonts/typicons/typicons.ttf");
             }
         };
     }
